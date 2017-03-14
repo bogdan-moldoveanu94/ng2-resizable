@@ -1,5 +1,5 @@
-import {ElementRef, Renderer, Input, Component, OnInit} from 'angular2/core';
-import {NgClass, NgFor} from "angular2/common";
+import {ElementRef, Renderer, Input, Component, OnInit} from '@angular/core';
+import {NgClass, NgFor} from "@angular/common";
 
 @Component({
     selector: '[resizable]',
