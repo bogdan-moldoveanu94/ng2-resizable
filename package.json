@@ -4,7 +4,10 @@
   "description": "Angular 2 component for resizable containers",
   "author": "Marc Weinberger",
   "license": "MIT",
-  "repository": "https://github.com/mixomat/ng2-resizable",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mixomat/ng2-resizable.git"
+  },
   "main": "ng2-resizable.js",
   "typings": "ng2-resizable.d.ts",
   "scripts": {
@@ -47,6 +50,29 @@
     "es6-shim": "~0.33.3",
     "reflect-metadata": "~0.1.2",
     "rxjs": "5.2.0",
+    "zone.js": "^0.7.7"
+  },
+  "bugs": {
+    "url": "https://github.com/mixomat/ng2-resizable/issues"
+  },
+  "homepage": "https://github.com/mixomat/ng2-resizable#readme",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "@angular/common": "^2.4.9",
+    "@angular/compiler": "^2.4.9",
+    "es6-shim": "^0.33.13",
+    "es6-promise": "^3.0.2",
+    "karma": "^0.13.22",
+    "karma-coverage": "^0.5.5",
+    "karma-phantomjs-launcher": "^0.2.3",
+    "karma-jasmine": "^0.3.8",
+    "node-sass": "^3.13.1",
+    "reflect-metadata": "^0.1.10",
+    "rimraf": "^2.6.1",
+    "rxjs": "^5.2.0",
+    "typescript": "^1.8.10",
     "zone.js": "^0.7.7"
   }
 }
