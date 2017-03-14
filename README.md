@@ -1,3 +1,9 @@
+# I do not own this package
+This is just a fork from the original respository by user Mixomat.
+I have updated it to work for an updated version of angular2 and published it on npm.
+All rights belong to the original author that can be found here:
+https://github.com/mixomat/ng2-resizable
+
 # Angular2 Resizable
 This is an **work-in-progress** implementation of an Angular 2 component for resizable containers. 
 
